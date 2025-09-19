@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{article}
+%----------------------------------------------------------------------------------------
+% PACKAGES & SETUP
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip}
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\usepackage{supertabular}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\usepackage{fontawesome5}
+\begin{document}
+\pagestyle{empty}
+
+%----------------------------------------------------------------------------------------
+% TITLE BLOCK
+%----------------------------------------------------------------------------------------
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Anurag Patel} \\[7.5pt]
+\href{mailto:anuragkhojar@gmail.com}{\raisebox{-0.05\height}\faEnvelope\ anuragkhojar@gmail.com} \ $|$ \ 
+\href{https://www.linkedin.com/in/anurag-patel-p2001/}{\raisebox{-0.05\height}\faLinkedin\ anurag-patel-p2001} \ $|$ \
+\href{https://github.com/Anuragkhojar/}{\raisebox{-0.05\height}\faGithub\ Anuragkhojar} \ $|$ \ 
+\href{tel:‪+917440472198‬}{\raisebox{-0.05\height}\faMobile\ ‪+91 74404 72198‬} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% CAREER OBJECTIVE
+%----------------------------------------------------------------------------------------
+\section{Career Objective}
+DevOps Engineer skilled in AWS, Kubernetes, Docker, Terraform, and Jenkins. Improved deployment speed by 40\% through IaC automation and ensured 99.9\% uptime with HA architectures. Strong in CI/CD pipelines, scalable cloud-native deployments, and infrastructure monitoring with CloudWatch.
+
+%----------------------------------------------------------------------------------------
+% PROFESSIONAL SUMMARY
+%----------------------------------------------------------------------------------------
+\section{Professional Summary}
+\begin{itemize}[nosep, after=\strut, leftmargin=1em, itemsep=3pt, label=--]
+    \item Hands-on knowledge in AWS services (EC2, EKS, Lambda, RDS, DynamoDB, VPC, Route 53, S3, IAM).
+    \item Experience with Terraform for Infrastructure as Code and automated provisioning.
+    \item Skilled in CI/CD pipelines using Jenkins, Git, and Maven.
+    \item Practical exposure to Docker, Kubernetes (Pods, Deployments, Services, YAML manifests).
+    \item Familiar with Linux environments, monitoring via CloudWatch, and networking (NAT, Security Groups, Load Balancers).
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Cloud Services & AWS  \\
+Operating Systems & Windows, Linux \\
+Version Control & Git (GitHub) \\
+Continuous Integration Tools & Jenkins \\
+Build Tools & Maven \\
+Infrastructure Provisioning & Terraform \\
+Containerization & Docker \\
+Container Orchestration & Kubernetes \\
+\end{tabularx}
+%----------------------------------------------------------------------------------------
+% PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{CI/CD AWS DevOps project with GitHub} & \hfill \\
+\multicolumn{2}{@{}X@{}}{A CI/CD AWS DevOps project with GitHub automates code build, test, and deployment to AWS resources using GitHub Actions and AWS services. 
+\item This streamlines software delivery while improving reliability and speed through automated workflows and integrations.}  \\
+\end{tabularx}
+\vspace{6pt}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Cloud-Based 3-Tier Architecture on AWS} & \hfill \\
+\multicolumn{2}{@{}X@{}}{Designed and deployed a production-grade web application using a 3-tier architecture (Web, App, DB) on AWS, emphasizing scalability, security, and automation.}  \\
+\end{tabularx}
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{RGPV University Bhopal} & Bansal Institute of Science \& Technology  (MCA) \hfill CGPA: 7.67(2024) \\
+\textbf{BU University Bhopal} & Govt. MVM College, Bhopal (B.Sc) \hfill Percentage: 67\%(2022) \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+\section{Certifications}
+\begin{itemize}[nosep, leftmargin=1em, itemsep=3pt, label=--]
+    \item AWS Cloud Practitioner Essentials  
+    \item AWS Solutions Architecture Virtual Experience   
+    % Add more certifications here when completed
+\end{itemize}
+\vfill
+\end{document}
